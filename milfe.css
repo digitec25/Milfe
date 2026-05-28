@@ -17,11 +17,11 @@ nav.up{box-shadow:0 4px 24px rgba(12,61,110,.10)}
 
 /* ─── LOGO FIX ─── */
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none}
-.logo-mark{width:40px;height:40px;border-radius:11px;background:linear-gradient(140deg,var(--blue),var(--sky));display:flex;align-items:center;justify-content:center;font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;color:white;font-size:17px;letter-spacing:-1px;flex-shrink:0}
+.logo-mark{width:50px;height:50px;border-radius:11px;background:linear-gradient(140deg,var(--blue),var(--sky));display:flex;align-items:center;justify-content:center;font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;color:white;font-size:22px;letter-spacing:-2px;flex-shrink:0}
 .logo-names{display:flex;flex-direction:column;line-height:1;gap:2px}
 .logo-top{font-size:12px;color:#8A9AB0;font-weight:400;letter-spacing:.3px;white-space:nowrap}
-.logo-srl{font-size:12px;color:#8A9AB0;font-weight:400;letter-spacing:.3px}
-.logo-text{font-size:24px;font-weight:800;color:#0C3D6E;letter-spacing:-.5px;line-height:1;white-space:nowrap}
+.logo-srl{font-size:7px;color:#8A9AB0;font-weight:400;letter-spacing:.1.5px}
+.logo-text{font-size:24px;font-weight:800;color:#0C3D6E;letter-spacing:-.8px;line-height:1;white-space:nowrap}
 .logo-text em{color:#2E8FD8;font-style:normal}
 
 .nav-menu{display:flex;align-items:center;gap:4px;list-style:none}
