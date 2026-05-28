@@ -198,24 +198,28 @@
       </div>
       <div class="cform reveal">
         <h3>Envianos tu consulta</h3>
-        <div class="frow">
-          <div class="fg"><label>Nombre</label><input type="text" placeholder="Tu nombre completo"></div>
-          <div class="fg"><label>Teléfono</label><input type="tel" placeholder="+595 9xx xxx xxx"></div>
-        </div>
-        <div class="fg"><label>Email</label><input type="email" placeholder="correo@empresa.com.py"></div>
-        <div class="fg"><label>Servicio de interés</label>
-          <select>
-            <option>Estudio Contable</option>
-            <option>Factura Electrónica SIFEN</option>
-            <option>Sistemas Informáticos</option>
-            <option>Páginas Web</option>
-            <option>Agente de Carga</option>
-            <option>Courier / Remesas</option>
-            <option>Otro</option>
-          </select>
-        </div>
-        <div class="fg"><label>Mensaje</label><textarea placeholder="Contanos brevemente qué necesitás..."></textarea></div>
-        <button class="fsub" onclick="enviarForm()">Enviar consulta →</button>
+        <form action="https://formspree.io/f/mbdbwara" method="POST">
+          <input type="hidden" name="_subject" value="Nueva consulta desde milfe.com.py">
+          <input type="hidden" name="_language" value="es">
+          <div class="frow">
+            <div class="fg"><label>Nombre</label><input type="text" name="nombre" placeholder="Tu nombre completo" required></div>
+            <div class="fg"><label>Teléfono</label><input type="tel" name="telefono" placeholder="+595 9xx xxx xxx"></div>
+          </div>
+          <div class="fg"><label>Email</label><input type="email" name="email" placeholder="correo@empresa.com.py" required></div>
+          <div class="fg"><label>Servicio de interés</label>
+            <select name="servicio">
+              <option>Estudio Contable</option>
+              <option>Factura Electrónica SIFEN</option>
+              <option>Sistemas Informáticos</option>
+              <option>Páginas Web</option>
+              <option>Agente de Carga</option>
+              <option>Courier / Remesas</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="fg"><label>Mensaje</label><textarea name="mensaje" placeholder="Contanos brevemente qué necesitás..." required></textarea></div>
+          <button type="submit" class="fsub">Enviar consulta →</button>
+        </form>
       </div>
     </div>
   </div>
