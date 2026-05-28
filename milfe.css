@@ -19,7 +19,7 @@ nav.up{box-shadow:0 4px 24px rgba(12,61,110,.10)}
 .logo-text{font-size:18px;font-weight:800;color:var(--navy);letter-spacing:-.5px}
 .logo-text em{color:var(--sky);font-style:normal}
 .logo-sub{font-size:9.5px;color:var(--muted);font-weight:400;display:block;letter-spacing:.3px;margin-top:-3px}
-.logo-sub1{
+.logo-sub1{font-size:9.5px;color:var(--muted);font-weight:400;display:block;letter-spacing:.3px;margin-top:-3px
   vertical-align: baseline; /* ← cambia sub por baseline */
   font-size: 13px;
   color: #888;
