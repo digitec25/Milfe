@@ -19,6 +19,11 @@ nav.up{box-shadow:0 4px 24px rgba(12,61,110,.10)}
 .logo-text{font-size:18px;font-weight:800;color:var(--navy);letter-spacing:-.5px}
 .logo-text em{color:var(--sky);font-style:normal}
 .logo-sub{font-size:9.5px;color:var(--muted);font-weight:400;display:block;letter-spacing:.3px;margin-top:-3px}
+.logo-sub1{
+  vertical-align: baseline; /* ← cambia sub por baseline */
+  font-size: 13px;
+  color: #888;
+}
 .nav-menu{display:flex;align-items:center;gap:4px;list-style:none}
 .nav-menu a{font-size:13.5px;font-weight:500;color:var(--muted);padding:7px 13px;border-radius:8px;transition:color .2s,background .2s}
 .nav-menu a:hover,.nav-menu a.active{color:var(--blue);background:var(--light)}
